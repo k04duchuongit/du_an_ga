@@ -1,0 +1,74 @@
+    @media(min-width : 1024px) {
+        .icons.ti-search{
+            display: none;
+        }
+    }
+
+    /*tablet*/
+    @media(min-width : 740px) and (max-width:1023px) {
+        .icons.ti-search{
+            display: none;
+        }
+    }
+
+
+    /*mobile*/
+    @media(max-width : 740px) {
+        #nav > li:first-child{
+            display: inline-block;
+        }
+        #nav li{
+            display: block;
+            position: relative;
+        }
+        .icons.ti-search {
+        display: none;
+        }
+        #nav{
+            display:block;
+        }
+        #nav li a{
+            border-bottom: 1px solid rgb(110, 109, 109,0.4);
+        }
+
+        #mobile-menu{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        #header{
+            overflow: hidden;
+        }
+        
+        #nav .subnav{
+            position: initial;
+            background-color: rgb(80, 73, 88);
+            padding-left: 30px;
+        }
+        #nav .subnav a{
+         color: aliceblue;
+        }
+        #content .member-list img {
+            width: 100%;
+            height: 100%;
+        }
+        #content .member-item{
+            padding: 0 5px;
+        }
+        .boss-ticket .places .place-item {
+            width: 100%;
+            margin-left: 0;
+            margin-bottom: 20px;
+            border: 2px solid rgb(74, 41, 41,0.6);
+        }
+        .col-half{
+            width: 100%;
+        }
+        .input-form-mobile{
+            padding: 0;
+        }
+        .col{
+            margin-bottom:20px ;
+        }
+       
+    }
